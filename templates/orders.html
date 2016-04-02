@@ -15,7 +15,13 @@
                   </thead>
 
                   <tbody>
-
+                    <tr ng-repeat="order in orders">
+                      <th>{{ order.item }}</th>
+                      <th>{{ order.price }}</th>
+                      <th>{{ order.quantity}}</th>
+                      <th>{{ order.state }}</th>
+                      <th>{{ order.thedate}}</th>
+                    </tr>
                   </tbody>
 
                   <tfoot>

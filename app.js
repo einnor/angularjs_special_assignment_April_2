@@ -3,6 +3,7 @@
 
     angular
         .module('customersApp', ['ui.router', 'satellizer'])
+        .constant('_', window._)
         .config(function($stateProvider, $urlRouterProvider, $authProvider, $locationProvider) {
 
             // Satellizer configuration that specifies which API
