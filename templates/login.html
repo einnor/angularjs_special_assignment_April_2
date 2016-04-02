@@ -1,0 +1,45 @@
+<form class="form-signin">
+  <div class="panel periodic-login">
+      <div class="panel-body text-center">
+
+          <i class="fa fa-user fa-5x"></i>
+
+          <div class="row">
+            <!-- Alert Error -->
+            <div class="alert col-md-12 col-sm-12 alert-icon alert-danger alert-dismissible fade in hidden" role="alert">
+              <div class="col-md-2 col-sm-2 icon-wrapper text-center">
+                <span class="fa fa-flash fa-2x"></span></div>
+              <div class="col-md-10 col-sm-10">
+                <p><strong>Error!</strong> Invalid email/password :-(</p>
+              </div>
+            </div>
+
+            <!-- Alert Success -->
+            <div class="alert alert-success col-md-12 col-sm-12  alert-icon alert-dismissible fade in hidden" role="alert">
+              <div class="col-md-2 col-sm-2 icon-wrapper text-center">
+                <span class="fa fa-check fa-2x"></span></div>
+              <div class="col-md-10 col-sm-10">
+                <p><strong>Success!</strong> Logged in successfully :-)</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="form-group form-animate-text" style="margin-top:10px !important;">
+            <input type="email" name="email" id="email" class="form-text" required>
+            <span class="bar"></span>
+            <label>Email</label>
+          </div>
+          <div class="form-group form-animate-text" style="margin-top:40px !important;">
+            <input type="password" name="password" id="password" class="form-text" required>
+            <span class="bar"></span>
+            <label>Password</label>
+          </div>
+          <input type="submit" class="btn col-md-12" value="LOGIN"/>
+      </div>
+        <div class="text-center" style="padding:5px;">
+            <a href="#">Forgot Password </a>
+            <a href="#">| Signup</a>
+        </div>
+  </div>
+</form>

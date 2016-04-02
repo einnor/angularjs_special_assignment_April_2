@@ -782,6 +782,10 @@ ul li a:focus {
   padding: 0px;
 }
 
+.padding-bottom-30 {
+  padding-bottom: 30px;
+}
+
 .fc {
   color: #444;
 }
