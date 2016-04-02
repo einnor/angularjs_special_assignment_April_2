@@ -5,35 +5,37 @@
     </div>
      <div class="panel-body" style="padding-bottom:30px;">
       <div class="col-md-12">
-        <!-- Name -->
-        <div class="form-group padding-bottom-30">
-          <label class="col-sm-3 col-xs-12 control-label text-right">Item</label>
-          <div class="col-sm-9 col-xs-12">
-            <input type="text" name="item" id="item" class="form-control" placeholder="Enter name of item" />
+        <form novalidate="">
+          <!-- Name -->
+          <div class="form-group padding-bottom-30">
+            <label class="col-sm-3 col-xs-12 control-label text-right">Item</label>
+            <div class="col-sm-9 col-xs-12">
+              <input type="text" name="item" id="item" class="form-control" placeholder="Enter name of item" ng-model="order.item" ng-required="true" />
+            </div>
           </div>
-        </div>
 
-        <!-- Phone -->
-        <div class="form-group padding-bottom-30">
-          <label class="col-sm-3 col-xs-12 control-label text-right">Price</label>
-          <div class="col-sm-9 col-xs-12">
-            <input type="number" name="price" id="price" min="0" class="form-control" placeholder="Enter price" />
+          <!-- Phone -->
+          <div class="form-group padding-bottom-30">
+            <label class="col-sm-3 col-xs-12 control-label text-right">Price</label>
+            <div class="col-sm-9 col-xs-12">
+              <input type="number" name="price" id="price" min="0" class="form-control" placeholder="Enter price"  ng-model="order.price" ng-required="true" />
+            </div>
           </div>
-        </div>
 
-        <!-- Email -->
-        <div class="form-group padding-bottom-30">
-          <label class="col-sm-3 col-xs-12 control-label text-right">Quantity</label>
-          <div class="col-sm-9 col-xs-12">
-            <input type="number" name="quantity" id="quantity" min="0" class="form-control" placeholder="Enter quantity" />
+          <!-- Email -->
+          <div class="form-group padding-bottom-30">
+            <label class="col-sm-3 col-xs-12 control-label text-right">Quantity</label>
+            <div class="col-sm-9 col-xs-12">
+              <input type="number" name="quantity" id="quantity" min="0" class="form-control" placeholder="Enter quantity" ng-model="order.quantity" ng-required="true" />
+            </div>
           </div>
-        </div>
 
-        <div class="form-group">
-          <div class="col-xs-12">
-            <input type="button" value="Create Order" class="btn btn-danger box-shadow-none pull-right" style="margin-bottom:20px;"/>
+          <div class="form-group">
+            <div class="col-xs-12">
+              <input type="button" value="Create Order" ng-click="createCustomerOrder()" class="btn btn-danger box-shadow-none pull-right" style="margin-bottom:20px;"/>
+            </div>
           </div>
-        </div>
+        </form>
       </div>
     </div>
   </div>

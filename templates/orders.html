@@ -16,11 +16,11 @@
 
                   <tbody>
                     <tr ng-repeat="order in orders">
-                      <th>{{ order.item }}</th>
-                      <th>{{ order.price }}</th>
-                      <th>{{ order.quantity}}</th>
-                      <th>{{ order.state }}</th>
-                      <th>{{ order.thedate}}</th>
+                      <td>{{ order.item }}</td>
+                      <td>{{ order.price }}</td>
+                      <td>{{ order.quantity}}</td>
+                      <td>{{ order.state }}</td>
+                      <td>{{ order.thedate | date:"MM-dd-yyyy h:mm" }}</td>
                     </tr>
                   </tbody>
 
