@@ -8,11 +8,11 @@
             // Satellizer configuration that specifies which API
             // route the JWT should be retrieved from
             // Chaka to provide this
-            $authProvider.loginUrl = '';
+            $authProvider.loginUrl = 'api/authenticate';
 
             // Redirect to the login state if any other states
             // are requested other than customers
-            $urlRouterProvider.otherwise('/login');
+            $urlRouterProvider.otherwise('/customers');
 
             $stateProvider
                 .state('login', {
@@ -24,11 +24,6 @@
                     url: '/customers',
                     templateUrl: 'templates/manageCustomers.html',
                     controller: 'customersController'
-                })
-                .state('customer', {
-                    url: '/customers/{id:int}/orders',
-                    templateUrl: 'templates/manageCustomerOrders.html',
-                    controller: 'customerOrdersController'
                 });
         });
 })();
