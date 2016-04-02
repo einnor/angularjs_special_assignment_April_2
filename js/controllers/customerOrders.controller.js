@@ -9,8 +9,8 @@
           $http
             .get('customers/customers.json')
             .success(function(data) {
-                console.log(data.customers)
                 $scope.customer = _.where(data.customers, {id:customerId} );
+                $scope.names = $scope.customer[0].names;
                 $scope.orders = $scope.customer[0].orders;
                 console.log($scope.orders);
             });
