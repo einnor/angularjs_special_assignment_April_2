@@ -6,13 +6,36 @@
          "gender":"1",
          "phone":"254722823746",
          "email":"memmaina@hotmail.com",
-         "company":"MJE",
          "password":"e10adc3949ba59abbe56e057f20f883e",
          "cover":"img/avatar.jpg",
-         "logintype":"default.png",
          "thedate":"2014-11-15 04:25:12",
-         "role":"Author",
-         "state":"1"
+         "orders":[
+           {
+             "item":"Toothpaste",
+             "price":90,
+             "quantity":6
+           },
+           {
+             "item":"Shoe Polish",
+             "price":120,
+             "quantity":2
+           },
+           {
+             "item":"Book",
+             "price":45,
+             "quantity":9
+           },
+           {
+             "item":"Rubber Shoes",
+             "price":800,
+             "quantity":1
+           },
+           {
+             "item":"Socks",
+             "price":150,
+             "quantity":3
+           }
+         ]
       },
       {
          "id":"2",
@@ -23,10 +46,34 @@
          "company":"Fauzia's Kitchen",
          "password":"e10adc3949ba59abbe56e057f20f883e",
          "cover":"img/avatar.jpg",
-         "logintype":"default.png",
          "thedate":"2015-03-17 10:22:13",
-         "role":"Author",
-         "state":"1"
+         "orders":[
+           {
+             "item":"Toothpaste",
+             "price":90,
+             "quantity":6
+           },
+           {
+             "item":"Shoe Polish",
+             "price":120,
+             "quantity":2
+           },
+           {
+             "item":"Book",
+             "price":45,
+             "quantity":9
+           },
+           {
+             "item":"Rubber Shoes",
+             "price":800,
+             "quantity":1
+           },
+           {
+             "item":"Socks",
+             "price":150,
+             "quantity":3
+           }
+         ]
       },
       {
          "id":"4",
@@ -37,10 +84,34 @@
          "company":"Pika",
          "password":"e10adc3949ba59abbe56e057f20f883e",
          "cover":"img/avatar.jpg",
-         "logintype":"default.png",
          "thedate":"2015-05-20 06:45:03",
-         "role":"Admin",
-         "state":"1"
+         "orders":[
+           {
+             "item":"Toothpaste",
+             "price":90,
+             "quantity":6
+           },
+           {
+             "item":"Shoe Polish",
+             "price":120,
+             "quantity":2
+           },
+           {
+             "item":"Book",
+             "price":45,
+             "quantity":9
+           },
+           {
+             "item":"Rubber Shoes",
+             "price":800,
+             "quantity":1
+           },
+           {
+             "item":"Socks",
+             "price":150,
+             "quantity":3
+           }
+         ]
       },
       {
          "id":"5",
@@ -51,10 +122,34 @@
          "company":null,
          "password":"e10adc3949ba59abbe56e057f20f883e",
          "cover":"img/avatar.jpg",
-         "logintype":"default.png",
          "thedate":"2015-05-22 09:46:38",
-         "role":"Author",
-         "state":"1"
+         "orders":[
+           {
+             "item":"Toothpaste",
+             "price":90,
+             "quantity":6
+           },
+           {
+             "item":"Shoe Polish",
+             "price":120,
+             "quantity":2
+           },
+           {
+             "item":"Book",
+             "price":45,
+             "quantity":9
+           },
+           {
+             "item":"Rubber Shoes",
+             "price":800,
+             "quantity":1
+           },
+           {
+             "item":"Socks",
+             "price":150,
+             "quantity":3
+           }
+         ]
       },
       {
          "id":"9",
@@ -65,10 +160,34 @@
          "company":null,
          "password":"e10adc3949ba59abbe56e057f20f883e",
          "cover":"img/avatar.jpg",
-         "logintype":"default.png",
          "thedate":"2015-05-22 19:15:06",
-         "role":"Author",
-         "state":"1"
+         "orders":[
+           {
+             "item":"Toothpaste",
+             "price":90,
+             "quantity":6
+           },
+           {
+             "item":"Shoe Polish",
+             "price":120,
+             "quantity":2
+           },
+           {
+             "item":"Book",
+             "price":45,
+             "quantity":9
+           },
+           {
+             "item":"Rubber Shoes",
+             "price":800,
+             "quantity":1
+           },
+           {
+             "item":"Socks",
+             "price":150,
+             "quantity":3
+           }
+         ]
       },
       {
          "id":"10",
@@ -79,10 +198,34 @@
          "company":null,
          "password":"e10adc3949ba59abbe56e057f20f883e",
          "cover":"img/avatar.jpg",
-         "logintype":"default.png",
          "thedate":"2015-05-23 06:36:57",
-         "role":"Author",
-         "state":"1"
+         "orders":[
+           {
+             "item":"Toothpaste",
+             "price":90,
+             "quantity":6
+           },
+           {
+             "item":"Shoe Polish",
+             "price":120,
+             "quantity":2
+           },
+           {
+             "item":"Book",
+             "price":45,
+             "quantity":9
+           },
+           {
+             "item":"Rubber Shoes",
+             "price":800,
+             "quantity":1
+           },
+           {
+             "item":"Socks",
+             "price":150,
+             "quantity":3
+           }
+         ]
       },
       {
          "id":"11",
@@ -93,10 +236,34 @@
          "company":null,
          "password":"e10adc3949ba59abbe56e057f20f883e",
          "cover":"img/avatar.jpg",
-         "logintype":"default.png",
          "thedate":"2015-05-23 06:42:35",
-         "role":"Author",
-         "state":"1"
+         "orders":[
+           {
+             "item":"Toothpaste",
+             "price":90,
+             "quantity":6
+           },
+           {
+             "item":"Shoe Polish",
+             "price":120,
+             "quantity":2
+           },
+           {
+             "item":"Book",
+             "price":45,
+             "quantity":9
+           },
+           {
+             "item":"Rubber Shoes",
+             "price":800,
+             "quantity":1
+           },
+           {
+             "item":"Socks",
+             "price":150,
+             "quantity":3
+           }
+         ]
       },
       {
          "id":"12",
@@ -107,10 +274,34 @@
          "company":null,
          "password":"e10adc3949ba59abbe56e057f20f883e",
          "cover":"img/avatar.jpg",
-         "logintype":"default.png",
          "thedate":"2015-05-23 06:48:50",
-         "role":"Author",
-         "state":"1"
+         "orders":[
+           {
+             "item":"Toothpaste",
+             "price":90,
+             "quantity":6
+           },
+           {
+             "item":"Shoe Polish",
+             "price":120,
+             "quantity":2
+           },
+           {
+             "item":"Book",
+             "price":45,
+             "quantity":9
+           },
+           {
+             "item":"Rubber Shoes",
+             "price":800,
+             "quantity":1
+           },
+           {
+             "item":"Socks",
+             "price":150,
+             "quantity":3
+           }
+         ]
       },
       {
          "id":"1276",
@@ -121,10 +312,34 @@
          "company":"Toonga",
          "password":"5f4dcc3b5aa765d61d8327deb882cf99",
          "cover":"img/avatar.jpg",
-         "logintype":"default.png",
          "thedate":"2016-03-20 18:42:26",
-         "role":"Author",
-         "state":"0"
+         "orders":[
+           {
+             "item":"Toothpaste",
+             "price":90,
+             "quantity":6
+           },
+           {
+             "item":"Shoe Polish",
+             "price":120,
+             "quantity":2
+           },
+           {
+             "item":"Book",
+             "price":45,
+             "quantity":9
+           },
+           {
+             "item":"Rubber Shoes",
+             "price":800,
+             "quantity":1
+           },
+           {
+             "item":"Socks",
+             "price":150,
+             "quantity":3
+           }
+         ]
       }
    ]
 }

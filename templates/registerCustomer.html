@@ -5,49 +5,51 @@
     </div>
      <div class="panel-body" style="padding-bottom:30px;">
       <div class="col-md-12">
-        <!-- Name -->
-        <div class="form-group padding-bottom-30">
-          <label class="col-sm-3 col-xs-12 control-label text-right">Name</label>
-          <div class="col-sm-9 col-xs-12">
-            <input type="text" name="name" id="name" class="form-control" placeholder="Enter name">
-          </div>
-        </div>
-
-        <!-- Phone -->
-        <div class="form-group padding-bottom-30">
-          <label class="col-sm-3 col-xs-12 control-label text-right">Phone</label>
-          <div class="col-sm-9 col-xs-12">
-            <input type="tel" name="phone" id="phone" class="form-control" placeholder="Enter phone number">
-          </div>
-        </div>
-
-        <!-- Email -->
-        <div class="form-group padding-bottom-30">
-          <label class="col-sm-3 col-xs-12 control-label text-right">E-Mail</label>
-          <div class="col-sm-9 col-xs-12">
-            <input type="email" name="email" id="email" class="form-control" placeholder="Enter e-mail address">
-          </div>
-        </div>
-
-        <!-- Gender -->
-        <div class="form-group padding-bottom-30">
-          <label class="col-sm-3 col-xs-12 control-label text-right">Gender</label>
-          <div class="col-sm-9 col-xs-12">
-            <div class="col-sm-12 padding-0">
-              <select class="form-control">
-                <option value="3">Undefined</option>
-                <option value="1">Male</option>
-                <option value="2">Female</option>
-              </select>
+        <form novalidate="">
+          <!-- Name -->
+          <div class="form-group padding-bottom-30">
+            <label class="col-sm-3 col-xs-12 control-label text-right">Name</label>
+            <div class="col-sm-9 col-xs-12">
+              <input type="text" name="name" id="name" class="form-control" ng-model="customer.names" ng-required="true" placeholder="Enter name" />
             </div>
           </div>
-        </div>
 
-        <div class="form-group">
-          <div class="col-xs-12">
-            <input type="button" value="Create Customer" class="btn btn-danger box-shadow-none pull-right" style="margin-bottom:20px;"/>
+          <!-- Phone -->
+          <div class="form-group padding-bottom-30">
+            <label class="col-sm-3 col-xs-12 control-label text-right">Phone</label>
+            <div class="col-sm-9 col-xs-12">
+              <input type="tel" name="phone" id="phone" class="form-control" ng-model="customer.phone" placeholder="Enter phone number" required="" />
+            </div>
           </div>
-        </div>
+
+          <!-- Email -->
+          <div class="form-group padding-bottom-30">
+            <label class="col-sm-3 col-xs-12 control-label text-right">E-Mail</label>
+            <div class="col-sm-9 col-xs-12">
+              <input type="email" name="email" id="email" class="form-control" ng-model="customer.email" placeholder="Enter e-mail address" required="" />
+            </div>
+          </div>
+
+          <!-- Gender -->
+          <div class="form-group padding-bottom-30">
+            <label class="col-sm-3 col-xs-12 control-label text-right">Gender</label>
+            <div class="col-sm-9 col-xs-12">
+              <div class="col-sm-12 padding-0">
+                <select class="form-control">
+                  <option value="3"> -- Select sex -- </option>
+                  <option value="1">Male</option>
+                  <option value="2">Female</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="col-xs-12">
+              <input type="button" ng-click="createCustomer()" value="Create Customer" class="btn btn-danger box-shadow-none pull-right" style="margin-bottom:20px;"/>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
   </div>

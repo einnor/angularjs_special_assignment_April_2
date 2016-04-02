@@ -24,6 +24,11 @@
                     url: '/customers',
                     templateUrl: 'templates/manageCustomers.html',
                     controller: 'customersController'
+                })
+                .state('customer', {
+                    url: '/customers/{id:int}/orders',
+                    templateUrl: 'templates/manageCustomerOrders.html',
+                    controller: 'customerOrdersController'
                 });
         });
 })();
