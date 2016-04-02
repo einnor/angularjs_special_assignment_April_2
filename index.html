@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="customersApp">
 <head>
 
 	<meta name="description" content="AngularJS Special Assignment">
@@ -16,6 +16,9 @@
 	<!-- Scripts -->
 	<script src="js/angular.js"></script>
   <script src="js/angular-ui-router.js"></script>
+	<script src="js/satellizer.js"></script>
+	<script src="app.js"></script>
+	<script src="js/controllers/login.controller.js"></script>
 </head>
 
  <body class="dashboard">
@@ -27,6 +30,8 @@
           <div id="content">
               <div class="col-md-12" style="padding:20px;">
               		<div class="col-md-12 padding-0">
+
+										<div ui-view></div>
 
 											<!-- Login -->
 

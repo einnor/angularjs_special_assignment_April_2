@@ -26,16 +26,16 @@
           </div>
 
           <div class="form-group form-animate-text" style="margin-top:10px !important;">
-            <input type="email" name="email" id="email" class="form-text" required>
+            <input type="email" name="email" id="email" class="form-text" ng-model="auth.email" required>
             <span class="bar"></span>
             <label>Email</label>
           </div>
           <div class="form-group form-animate-text" style="margin-top:40px !important;">
-            <input type="password" name="password" id="password" class="form-text" required>
+            <input type="password" name="password" id="password" class="form-text" ng-model="auth.password" required>
             <span class="bar"></span>
             <label>Password</label>
           </div>
-          <input type="submit" class="btn col-md-12" value="LOGIN"/>
+          <input class="btn col-md-12" value="LOGIN" ng-click="auth.login()" />
       </div>
         <div class="text-center" style="padding:5px;">
             <a href="#">Forgot Password </a>
