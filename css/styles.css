@@ -2548,3 +2548,11 @@ ul li a:focus {
     left: -120px !important;
   }
 }
+
+.arrow-up{
+  width:0;height:0;border-left:5ps solid transparent;border-right:5px solid transparent;border-bottom:10px solid black;
+}
+
+.arrow-down{
+  width:0;height:0;border-left:5ps solid transparent;border-right:5px solid transparent;border-top:10px solid black;
+}
