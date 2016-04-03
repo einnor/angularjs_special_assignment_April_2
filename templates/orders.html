@@ -9,7 +9,7 @@
                       <th>Item</th>
                       <th>Price</th>
                       <th>Quantity</th>
-                      <th>State</th><!-- 0-Warehouse 1-En Route 2-Delivered -->
+                      <th>Total</th><!-- 0-Warehouse 1-En Route 2-Delivered -->
                       <th>Created On</th>
                     </tr>
                   </thead>
@@ -19,7 +19,7 @@
                       <td>{{ order.item }}</td>
                       <td>{{ order.price }}</td>
                       <td>{{ order.quantity}}</td>
-                      <td>{{ order.state }}</td>
+                      <td>{{ order.price * order.quantity }}</td>
                       <td>{{ order.thedate | date:"MM-dd-yyyy h:mm" }}</td>
                     </tr>
                   </tbody>

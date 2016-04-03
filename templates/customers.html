@@ -19,7 +19,7 @@
                     <td><a href="#/customers/{{customer.id}}/orders">{{ customer.names }}</a></td>
                     <td>{{ customer.phone }}</td>
                     <td>{{ customer.email }}</td>
-                    <td>{{ customer.gender }}</td>
+                    <td>{{ customer.gender | gender }}</td>
                     <td>{{ customer.thedate }}</td>
                   </tr>
                 </tbody>
