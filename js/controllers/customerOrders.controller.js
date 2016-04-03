@@ -8,7 +8,8 @@
           var customerId = $stateParams.id.toString();
           $scope.order = {};
           $scope.orders = {};
-          $scope.rowLimit = 5;
+          $scope.numberOfOrders = 0;
+          $scope.rowLimit = 15;
           $scope.sortColumn = "item";
           $scope.reverseSort = false;
           $scope.sortData = function(column){
@@ -25,14 +26,17 @@
             .get('customers/customers.json')
             .success(function(data) {
                 $scope.customer = _.where(data.customers, {id:customerId} );
+                $scope.numberOfOrders = $scope.customer[0].orders.length;
+                console.log($scope.numberOfOrders);
                 $scope.names = $scope.customer[0].names;
                 $scope.orders = $scope.customer[0].orders;
                 $scope.createCustomerOrder = function(){
-                  var order = $scope.order;
+                  //var order = $scope.order;
                   $scope.order.thedate = Date.now();
-                  console.log(order);
-                  $scope.orders.push(order);
+                  console.log($scope.order);
+                  $scope.orders.push($scope.order);
                   $scope.order = "";
+                  $scope.numberOfOrders++;
                 }
             });
           });
